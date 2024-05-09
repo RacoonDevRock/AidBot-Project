@@ -1,0 +1,92 @@
+.container-logo img {
+  max-width: 200px;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.text-column {
+  text-align: center;
+  padding: 50px;
+}
+
+.text-column h2 {
+  font-size: large;
+  font-weight: bold;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.text-column {
+  flex: 0 0 33.33%;
+}
+
+.divider {
+  width: 100%;
+}
+
+.image-column {
+  flex: 1;
+}
+
+.image-column img {
+  max-width: 55%;
+}
+
+#image1-column {
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+}
+
+/* Estilo personalizado para la línea divisoria */
+.divider {
+  border: 2px solid #7e8eed; /* Grosor y color del borde */
+  margin: 10px 0; /* Margen superior e inferior */
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.chatbot {
+  text-align: end;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 2s infinite;
+}
+
+.titulo {
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 50px;
+}
