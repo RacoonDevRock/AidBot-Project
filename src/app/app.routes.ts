@@ -12,7 +12,6 @@ export const routes: Routes = [
       },
       {
         path: '**',
-        redirectTo: '/home',
-        pathMatch: 'full'
+        loadComponent: () => import('./components/home/home.component')
       }
 ];
